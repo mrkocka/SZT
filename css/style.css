@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: #dad3e5;
+}
+
+.button-style {
+  font-size: 1.3rem;
+  border-radius: 20px;
+  background-color: #556491;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+.button-style:hover {
+  background-color: white;
+  color: #556491;
+  outline: 2px solid #556491;
+  cursor: pointer;
+}
+
+main {
+  max-width: 1500px;
+  padding: 2rem 4rem;
+  margin: 0 auto;
+}
+
+.work-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5rem;
+  width: 100%;
+  /*  width: 65rem; */
+  margin: 0.5rem auto;
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*-----------------worker-box------------------------*/
+
+.worker-box {
+  /*   background-color: rgba(0, 0, 255, 0.411); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.worker-box h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+.worker-box h2 {
+  font-size: 2.4rem;
+}
+
+.text-box h2 {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.day-number {
+  background-color: #556491;
+  width: 5rem;
+  border-radius: 20px;
+  padding: 0.2rem;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+
+.avatar-img {
+  width: 14rem;
+}
+
+/*----------------------new-day-box------------------------*/
+.new-day-box {
+  display: flex;
+  justify-content: center;
+}
+
+.new-day {
+  outline: 2px solid black;
+  width: 35rem;
+  height: 3rem;
+  border-radius: 20px;
+  padding: 0.5rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+[type="date"] {
+  font-size: 1.6rem;
+  width: 13rem;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.up-button {
+  width: 8rem;
+  height: 2rem;
+}
+
+/*---------------------Nav-box---------------------------*/
+.nav-box {
+  display: flex;
+  justify-content: center;
+
+  gap: 2rem;
+}
+
+.nav-box button {
+  width: 10rem;
+  height: 2.5rem;
+}
+
+.months {
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1.3rem;
+  border-radius: 20px;
+}
+
+/*------------data-box---------------------------------------*/
+
+.day-container {
+  outline: 2px solid black;
+  width: 52rem;
+  height: 25rem;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.day-item {
+  outline: 2px solid black;
+  width: 25rem;
+  height: 2.5rem;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.day-item:hover {
+  background-color: #556491;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.day-item p {
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  margin-left: 5rem;
+}
+
+.delet-button {
+  background-color: red;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.delet-button:hover {
+  outline: 2px solid white;
+  cursor: pointer;
+}
+
+/*-------------------back-box----------------*/
+.back-box {
+  text-align: start;
+  padding-left: 4rem;
+}
+.back-box button {
+  width: 8rem;
+  height: 3rem;
+  font-size: 1.3rem;
+}
